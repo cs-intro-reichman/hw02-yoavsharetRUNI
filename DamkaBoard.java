@@ -6,11 +6,14 @@ public class DamkaBoard {
 		int input_board_dimensions = Integer.parseInt(args[0]);
 
 		for(int i = 0; i<input_board_dimensions; i++){
-			if(i % 2 == 1){
-				System.out.print(" ");
-			}
-			for(int j = 0; j<input_board_dimensions; j++){
-				System.out.print("* ");
+			if(i % 2 == 0){
+				for(int j = 0; j<input_board_dimensions; j++){
+					System.out.print("* ");
+				}
+			} else {
+				for(int j = 0; j<input_board_dimensions; j++){
+					System.out.print(" *");
+				}
 			}
 			System.out.println();
 		}
