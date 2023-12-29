@@ -13,8 +13,8 @@ public class Perfect {
 				output += (i + " + ");
 			}
 		}
-		
 		output = output.substring(0, output.length()-3);  //removing the last " + "
+		
 		if(sum_devisors != usr_input){
 			//User input is a perfect number
 			output = usr_input + " is not a perfect number";
