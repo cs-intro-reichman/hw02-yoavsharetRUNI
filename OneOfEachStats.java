@@ -53,12 +53,16 @@ public class OneOfEachStats {
 
 		// calc and output avg
 		double avg = (double)total_num_of_children/num_of_experiments;
-		System.out.println("Average: " + avg +  " children to get at least one of each gender.");
+		System.out.println("Average: " + avg +  
+							" children to get at least one of each gender.");
 
 		// output final stats
-		System.out.println("Number of families with 2 children: " + stats_2_children);
-		System.out.println("Number of families with 3 children: " + stats_3_children);
-		System.out.println("Number of families with 4 or more children: " + stats_4p_children);
+		System.out.println("Number of families with 2 children: " + 
+							stats_2_children);
+		System.out.println("Number of families with 3 children: " + 
+							stats_3_children);
+		System.out.println("Number of families with 4 or more children: " + 
+							stats_4p_children);
 
 		// find and output common group
 		if(stats_2_children > stats_3_children){

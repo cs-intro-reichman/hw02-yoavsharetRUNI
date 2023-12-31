@@ -14,7 +14,9 @@ public class Reverse {
 		System.out.println();
 
 		//finding the middle char, and outputs it
-		int middle_index = input_length % 2 == 0 ? (input_length/2)-1 : ((input_length+1)/2)-1;
-		System.out.println("The middle character is " + usr_input.charAt(middle_index));
+		int middle_index = input_length % 2 == 0 ? (input_length/2)-1 :
+						((input_length+1)/2)-1;
+		System.out.println("The middle character is " + 
+							usr_input.charAt(middle_index));
 	}
 }
